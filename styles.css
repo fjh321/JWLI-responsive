@@ -1,0 +1,795 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans Nabataean", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* body {
+    background: rgb(224, 224, 238)
+} */
+
+
+header {
+    width: 100%;
+    height: 5rem;
+    background: white;
+}
+
+header ul {
+    margin-left: 10%;
+}
+
+header li {
+    float: left;
+    width: 10%;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    list-style: none;
+}
+
+header button {
+    float: left;
+    width: 10%;
+    margin-top: 1.25rem;
+    margin-left: 5rem;
+    background: rgb(72, 72, 72);
+    color: white;
+}
+
+.apply-button {
+    border-radius: 1px;
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+}
+
+.r1-column1 {
+    float: left;
+    width: 60%;
+}
+
+.r1-column1 img {
+    width: 50%;
+    height: 20rem;
+    padding: 5rem;
+    margin-left: 20%;
+    margin-top: -5rem;
+    margin-bottom: 0rem;
+
+}
+
+.r1-column1 h2,
+.r1-column1 p {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    padding: 0;
+    margin-bottom: -5rem;
+    /* background: lime; */
+}
+
+.r1-column1 h2 {
+    font-size: 2.5rem;
+    margin-top: -2rem;
+}
+
+.r1-column1 p {
+    font-size: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.r1-column1 span {
+    display: inline-block;
+    font-size: 1.25rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    /* background: lime; */
+    text-align: center;
+}
+
+.column1-inputs-section {
+    width: 75%;
+    margin-bottom: 4rem;
+    margin-left: 8rem;
+}
+
+.column1-inputs-section input,
+.column1-inputs-section button {
+    height: 3rem;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+.column1-inputs-section input {
+    width: 65%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.column1-inputs-section button {
+    width: 25%;
+}
+
+.woman-icon-sec {
+    float: left;
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.woman-icon {
+    width: 80%;
+    height: 35rem;
+    margin-top: 0rem;
+    margin-left: 20%;
+    padding: 4rem 4rem 4rem 4rem;
+    /* background-color: blueviolet; */
+}
+
+.row2 {
+    width: 100%;
+}
+
+#background-color-match {
+    background: white;
+}
+
+.row2 h1 {
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 2rem 15rem;
+    text-align: center;
+}
+
+.split-pea {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding: 0 10rem;
+    margin-bottom: 2rem;
+}
+
+.split-pea p {
+    float: left;
+    width: 45%;
+    font-size: 1.75rem;
+    /* background: blue; */
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
+.founding {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 20rem;
+    font-size: 1.75rem;
+    color: rgb(134, 134, 134);
+}
+
+.row3 {
+    float: left;
+    width: 100%;
+    background: rgb(210, 212, 232);
+}
+
+.row3-text {
+    float: left;
+    font-size: 2.5rem;
+    width: 55%;
+    padding: 0 5rem;
+    margin: 2rem 0;
+    /* background: green; */
+}
+
+.row3 p {
+    font-size: 2rem;
+    margin-top: 1rem;
+    /* background: green; */
+}
+
+.history-images {
+    margin-top: 1rem;
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.history-images img {
+    width: 100%;
+    padding: 0 5em;
+    margin: 1rem 0;
+    /* background-color: blueviolet; */
+}
+
+
+.first-meeting-photo {
+    margin: 2rem 0;
+}
+
+.history-images span {
+    width: 100%;
+    font-size: 1.5rem;
+    /* background: salmon; */
+}
+
+.who-we-are {
+    float: left;
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.founder-atsuko {
+    float: left;
+    width: 80%;
+    padding: 2rem;
+    margin: 0 15rem;
+    border: 1px solid lightgray;
+    box-shadow: 5px grey;
+    /* background: lightcoral; */
+}
+
+.founder-atsuko img {
+    float: left;
+    width: 20%;
+    /* max-height: 90%; */
+    padding: 0 0.5rem;
+}
+
+.founder-atsuko h4 {
+    margin-bottom: 2rem;
+}
+
+.founder-text {
+    float: right;
+    width: 75%;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    padding: 0 3rem;
+    margin: 0 2rem;
+    /* background-color: brown; */
+}
+
+.row5 {
+    float: left;
+    width: 100%;
+    padding: 0 10rem;
+}
+
+.row5 p {
+    font-size: 1.5rem;
+}
+
+.fish-foundation {
+    float: left;
+    width: 50%;
+    padding: 4rem;
+}
+
+.fish-foundation h5 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.simmons h5 {
+    font-size: 2.5rem;
+}
+
+.simmons span {
+    border-top: 1px solid rgb(222, 215, 215);
+}
+
+.simmons {
+    float: left;
+    width: 50%;
+    padding: 4rem;
+}
+
+.newsletter-row {
+    float: left;
+    width: 100%;
+    height: 7.5rem;
+    padding: 2rem 5rem;
+    background: rgb(148, 161, 185);
+}
+
+.newsletter-row span {
+    display: inline-block;
+    width: 40%;
+    font-size: 2rem;
+    margin: 0 7.5rem;
+    color: white;
+}
+
+.newsletter-row input,
+.newsletter-row button {
+    width: 25%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-row button {
+    width: 10%;
+    margin-left: 2rem;
+
+    background: rgb(113, 133, 139);
+    color: white;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background: rgb(113, 133, 139);
+    /* height: 20rem; */
+    margin-bottom: 0
+}
+
+.first-footer {
+    width: 100%;
+    /* margin-left: 10rem; */
+    padding: 2rem 0 2rem 0rem;
+    border-bottom: 1px solid white;
+}
+
+footer span {
+    width: 40%;
+    height: 100%;
+    color: white;
+    font-size: 1.25rem;
+    padding-left: 2rem;
+
+}
+
+footer ul {
+    float: right;
+    width: 30%;
+}
+
+.social-media {
+    display: inline-block;
+    color: white;
+    margin: 0 1.5rem;
+    font-size: 1.25rem;
+}
+
+.ul-row {
+    width: 100%;
+    padding-left: 10rem;
+}
+
+.big-ul {
+    float: left;
+    width: 10%;
+    color: white;
+    margin: 1rem 1.5rem;
+    line-height: 1.75rem;
+}
+
+#long-ul {
+    width: 15%;
+}
+
+.big-ul li {
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.big-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-li {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-li-remove {
+        display: none;
+    }
+
+    .social-media {
+        margin: 0 0.5rem;
+    }
+
+    footer {
+        height: 10rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .woman-icon-sec {
+        float: left;
+        width: 35%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .woman-icon {
+        width: 80%;
+        height: 35rem;
+        margin-top: 0rem;
+        margin-left: 20%;
+        padding: 4rem 4rem 4rem 4rem;
+        /* background-color: blueviolet; */
+    }
+}
+
+
+@media screen and (max-width: 1075px) {
+    .founder-atsuko {
+        width: 75%;
+        border: 1px solid lightgray;
+        margin-left: 15%;
+        padding-right: -2rem;
+    }
+
+    .founder-atsuko img {
+        float: left;
+        width: 35%;
+        height: 30rem;
+
+        margin-left: 30%;
+    }
+
+    .founder-atsuko h4 {
+        width: 100%;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .founder-text {
+        width: 100%;
+        font-size: 1.75rem;
+        line-height: 2rem;
+        text-align: center;
+        /* background-color: brown;s */
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .newsletter-li,
+    .japanese {
+        display: none;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 875px) {
+    .woman-icon {
+        display: none;
+    }
+
+    .r1-column1 {
+        float: left;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .row2 {
+        float: left;
+        width: 100%;
+        /* background: green; */
+        margin: 0;
+    }
+
+    .row2 h1 {
+        float: left;
+        width: 100%;
+        font-size: 2.5rem;
+        padding: 2rem 15rem;
+        text-align: center;
+    }
+
+
+    .split-pea p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.75rem;
+        /* background: blue; */
+        padding: 2rem 10rem;
+    }
+
+
+    #hide-split {
+        display: none;
+    }
+
+    .row3 {
+        float: left;
+        width: 100%;
+        background: rgb(210, 212, 232);
+    }
+
+    .row3-text {
+        font-size: 2.5rem;
+        width: 100%;
+        padding: 0 5rem;
+        text-align: center;
+        /* background: green; */
+    }
+
+    .row3 p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: 0 10rem;
+        /* background: green; */
+    }
+
+    .history-images {
+        margin-top: 1rem;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .history-images img {
+        width: 50%;
+        padding: 0 5em;
+        margin: 1rem 0;
+        /* background-color: blueviolet; */
+    }
+
+    .first-meeting-photo {
+        margin: 2rem 0;
+    }
+
+    .history-images span {
+        display: none;
+    }
+
+
+
+    .newsletter-row {
+        float: left;
+        width: 100%;
+        height: 7.5rem;
+        padding: 2rem 5rem;
+        background: rgb(148, 161, 185);
+    }
+
+    .newsletter-row span {
+        display: inline-block;
+        width: 40%;
+        font-size: 1.5rem;
+        margin: 0 4rem;
+        color: white;
+        /* background: red; */
+
+    }
+
+    .newsletter-row input {
+        width: 25%;
+        height: 3.5rem;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .newsletter-row button {
+        width: 10%;
+        margin-left: 2rem;
+
+        background: rgb(113, 133, 139);
+        color: white;
+    }
+
+    .founder-atsuko {
+        float: left;
+        width: 75%;
+        border: 1px solid lightgray;
+        /* box-shadow: 5px grey; */
+        /* background: lightcoral; */
+        margin-left: 15%;
+        padding-right: -2rem;
+    }
+
+    .founder-atsuko img {
+        float: left;
+        width: 30%;
+        height: 20rem;
+
+        margin-left: 35%;
+    }
+
+    .founder-atsuko h4 {
+        width: 100%;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .founder-text {
+        width: 100%;
+        font-size: 1.75rem;
+        line-height: 2rem;
+        text-align: center;
+        /* background-color: brown;s */
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 775px) {
+
+    #japanese-li,
+    #JWLIA-li {
+        display: none;
+    }
+
+
+    footer li {
+        margin: 0 1rem;
+    }
+
+    ul li {
+        margin: 1.25rem 1rem;
+    }
+
+    .woman-icon-sec {
+        float: left;
+        width: 40%;
+        height: 100%;
+        overflow: hidden;
+
+
+    }
+
+    .woman-icon {
+        width: 80%;
+        height: 40rem;
+        margin-top: 0rem;
+        /* padding: 4rem 4rem 4rem 4rem; */
+        /* background-color: blueviolet; */
+    }
+
+    .contact,
+    .facebook-li,
+    .news-footer-li {
+        display: none;
+    }
+
+    footer li {
+        margin-top: -0.25rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .youtube-li {
+        display: none;
+    }
+
+    .news-footer-li {
+        margin-right: 15rem;
+    }
+
+    footer li {
+        margin-top: -0.25rem;
+    }
+
+    .founder-atsuko img {
+        width: 35%;
+        margin-left: 30%;
+    }
+
+    .founder-atsuko p {
+        display: none;
+    }
+
+    .fish-foundation p,
+    .simmons p {
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+
+    #program-li,
+    #fellows-li {
+        display: none;
+    }
+
+    ul li {
+        margin: 1.25rem 2.5rem;
+    }
+
+
+    .row5 {
+        width: 100%;
+        padding: 0 10rem;
+    }
+
+    .row5 p {
+        font-size: 1rem;
+    }
+
+    .fish-foundation {
+        width: 100%;
+        padding: 4rem;
+    }
+
+    .fish-foundation h5 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .simmons h5 {
+        font-size: 2.5rem;
+    }
+
+    .simmons span {
+        border-top: 1px solid rgb(222, 215, 215);
+    }
+
+    .simmons {
+        width: 100%;
+        padding: 4rem;
+    }
+
+    .newsletter-row {
+        float: left;
+        width: 100%;
+        height: 7.5rem;
+        padding: 2rem 5rem;
+        background: rgb(148, 161, 185);
+    }
+
+    .newsletter-row span {
+        display: inline-block;
+        width: 30%;
+        font-size: 1.5rem;
+        margin: 0 4rem;
+        color: white;
+        /* background: red; */
+
+    }
+
+    .newsletter-row input {
+        width: 25%;
+        height: 3.5rem;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .newsletter-row button {
+        width: 15%;
+        margin-left: 2rem;
+
+        background: rgb(113, 133, 139);
+        color: white;
+    }
+
+    footer li {
+        margin-top: -0.25rem;
+        padding: 0;
+    }
+
+}
